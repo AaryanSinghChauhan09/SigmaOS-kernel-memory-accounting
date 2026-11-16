@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-kernel-memory-accounting"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS kernel-memory-accounting component - kernel_subsystem"
+
+[lib]
+name = "kernel_memory_accounting"
+path = "src/lib.rs"
